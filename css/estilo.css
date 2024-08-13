@@ -1,10 +1,31 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 body{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    background-color: #fff;
+    font-size: 30px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
+
+.header{
+    background: #4285F4;
+    height: 60px;
+}
+
+.main{
+    background: #EA4A3C;
+    flex-grow: 1;
+}
+
+.footer{
+    color: #6b7682;
+    background: #2F2F2;
+    height: 60px;
+    border-bottom: 1px solid #dddfe3;
+}
